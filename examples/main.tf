@@ -11,7 +11,7 @@ terraform {
 data "openai_completion" "example" {
   model      = "text-davinci-003"
   max_tokens = 30
-  prompt     = "say test"
+  prompt     = "What is the meaning of life?"
 }
 
 output "example_response" {
